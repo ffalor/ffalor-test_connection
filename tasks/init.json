@@ -1,0 +1,20 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "Test connectivity over a specific port",
+  "parameters": {
+    "server": {
+      "description": "Specifies the server to test connectivity to.",
+      "type": "String"
+    },
+    "port": {
+      "description": "Specifies the port to test connectivity over.",
+      "type": "Integer"
+    }
+  },
+  "implementations": [
+    {
+      "name": "init.rb"
+    }
+  ]
+}
